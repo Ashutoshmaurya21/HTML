@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(255, 247, 0, 0.304);
+    }
+    h1{
+        color: blueviolet;
+    }
+    p{
+        background: pink;
+    }
+    #student{
+        color: red;
+        background-color: greenyellow;
+    }
+    .student{
+        color:blueviolet; 
+        background-color: aquamarine;
+        border: pink;
+        
+    }
+    </style>
+</head>
+<body>
+    <h1>
+My first website sheet
+    </h1><p>
+        this is my first websites that i create 
+    </p>
+    <div id="student"> this is my id</div>
+    <span class="student"> this is my second id</span>
+    
+</body>
+</html>
