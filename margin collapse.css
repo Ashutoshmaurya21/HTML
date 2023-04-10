@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin collapse</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .student{
+        background-color: brown;
+        margin: 7px 8px 4px 5px;
+        height: 20px;
+
+    }
+    .student2{
+        background-color: blue;
+        margin:34px;
+        height: 20px;
+
+    }
+</style>
+
+<body>
+    <div class="student">The Indian Premier League is a men's Twenty20 cricket league held annually in India and
+        contested by ten city-based franchise teams. The league was founded by the Board of Control for Cricket in India
+        in 2007. Arun Singh Dhumal is chairman of the IPL.</div>
+
+    <div class="student2">The Indian Premier League is a men's Twenty20 cricket league held annually in India and
+        contested by ten city-based franchise teams. The league was founded by the Board of Control for Cricket in India
+        in 2007. Arun Singh Dhumal is chairman of the IPL.</div>
+
+</body>
+
+</html>
